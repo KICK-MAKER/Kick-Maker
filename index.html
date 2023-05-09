@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Match Maker</title>
+  <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/notmatching.css" />
+
+  <script defer src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div>
+    <!--HEADER-->
+    <header>
+      <div class="inner">
+
+        <a href="/" class="logo">
+          <img src="/로고" alt="MATCHMAKER">
+        </a>
+
+      </div>
+    </header>
+  </div>
+
+  <section class="notMatching">
+    <div class="msg">매칭할 수 있는 팀이 없습니다.</div>
+    <div class="notMatchingBtn">
+      <div class="enter fade-in" onclick="location.href=('https://www.naver.com')">
+        경기 등록하기
+        </div>
+      <div class="check fade-in">
+        경기 둘러보기
+        </div>
+    </div>
+  </section>
+</body>
+</html>
