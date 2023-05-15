@@ -7,6 +7,7 @@
   <title>Match Maker</title>
   <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/notmatching.css" />
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -15,29 +16,37 @@
   <script defer src="./js/main.js"></script>
 </head>
 <body>
-  <div>
     <!--HEADER-->
+  <div>
     <header>
       <div class="inner">
 
-        <a href="/" class="logo">
-          <img src="/로고" alt="MATCHMAKER">
-        </a>
+        <a href="/" class="logo">MATCH MAKER</a>
 
-        <div class="sub-menu">
-          <ul class="menu">
-            <li>
+        <ul class="main-menu">
+          <li class="menu">
+            <div class="menu__name">alert</div>
+            <div class="menu__contents">
+              <ul class="inner">
+                <li>알림</li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu__name">My page</div>
+            <div class="menu__contents">
+              <ul class="inner">
+                <li>등록한 경기 정보 수정</li>
+                <li>팀 승률 확인</li>
+                <li>팀 프로필 변경</li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu__name">
               <a href="/signin">Sign In</a>
-            </li>
-            <li>
-              <a href="javascript:void(0)">My page</a>
-            </li>
+          </il>
           </ul>
-        </div>
-
-        <div class="main-menu">
-
-        </div>
       </div>
     </header>
   </div>
