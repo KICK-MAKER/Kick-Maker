@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kick Maker</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/signin.css">
-  <script defer src="../js/common.js"></script>
+  <link rel="stylesheet" href="../css/match_list.css">
+  <script src="../js/match_list.js"></script>
 </head>
 <body>
     <!--HEADER-->
-  <div>
+    <div>
     <header>
       <div class="inner">
 
@@ -45,23 +45,32 @@
           </ul>
       </div>
     </header>
-  </div>
-    <section class="signin">
-      <h1>로그인</h1>
-      <div class="signin__card">
-        <h2>환영합니동</h2>
-        <form action="">
-          <input type="text" name="id" placeholder="아이디를 입력하세요." />
-          <input type="password" name="pass" placeholder="비밀번호를 입력하세요." />
-          <input type="submit" value="로그인" />
-        </form>
-        <div class="actions">
-          <a href="javascript:void(0)">회원가입</a>
-          <a href="javascript:void(0)">아이디 찾기</a>
-          <a href="javascript:void(0)">비밀번호 찾기</a>
-        </div>
+
+  <div class ="container">
+  <div class="inner">
+      <div class="notice_board">
+          <!-- title 열 -->
+<!--             <ul class="board_row title_row ">
+              <li class="w70">번호</li>
+              <li class="w500">제목</li>
+              <li class="w120">작성자</li>
+              <li class="w100">작성일</li>
+              <li class="w100">조회</li>
+              <li class="w100">좋아요</li>
+          </ul> -->
+          <!-- 게시글 추가로 들어오는 위치 -->
       </div>
-    </section>
+
+      <!-- 페이지 블럭 -->
+      <div class="pagination">
+          <button class="before_move" onclick="before()">이전</button>
+          <div class="block">
+              <!-- 블럭 추가로 들어오는 위치 -->
+          </div>
+          <button class="next_move" onclick="next()">다음</button>
+      </div>
+  </div>
+</div>
 
 </body>
 </html>

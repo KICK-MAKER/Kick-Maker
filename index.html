@@ -16,6 +16,7 @@
   <script defer src="./js/main.js"></script>
 </head>
 <body>
+  <!-- 매칭된 경기가 없을 경우 나오는 페이지 -->
     <!--HEADER-->
   <div>
     <header>
@@ -55,10 +56,10 @@
     <div class="inner">
       <div class="msg">매칭할 수 있는 팀이 없습니다.</div>
       <div class="notMatchingBtn">
-        <div class="enter fade-in" onclick="location.href=('https://www.naver.com')">
+        <div class="enter fade-in" onclick="location.href=('/complete')">
           경기 등록하기
         </div>
-        <div class="check fade-in">
+        <div class="check fade-in" onclick="location.href=('/match_list')">
           경기 둘러보기
         </div>
       </div>
