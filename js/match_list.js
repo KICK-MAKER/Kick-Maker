@@ -34,8 +34,8 @@ block_print(front_block) : 블럭 출력하기 / 매개변수 : 가장 앞에 �
         for(let i=1;i<=totalPage;i++){
             data[i] = {
                 notice_num : i,
-                title:"경기"+i,  //경기 정보 객체로 변경
-                writer:"팀명"+i,  // 팀 정보 객체로 변경
+                title: "경기"+i,  //경기 정보 객체로 변경
+                writer: "팀명"+i,  // 팀 정보 객체로 변경
                 date_created:"2022-10-07",
                 // Lookkup_num : i,
                 // like : i
